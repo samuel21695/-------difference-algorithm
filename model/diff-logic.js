@@ -8,7 +8,7 @@
 
 export default function(inputJSONPath, outputJSONPath) {
   if (!inputJSONPath.endsWith('.json') || !outputJSONPath.endsWith('.json')) {
-    throw new Error('매개변수 ${}, ${}는 json 파일이 아닙니다.');
+    throw new Error(`매개변수 ${inputJSONPath}, ${outputJSONPath}는 json 파일이 아닙니다.`);
   }
   let result = {};
   /**
