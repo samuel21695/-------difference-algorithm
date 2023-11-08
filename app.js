@@ -5,8 +5,8 @@ import fs from "fs";
 import diffLogic from "./model/diff-logic.js";
 
 // json files path
-const inputJSONPath = "./config/fromDB-data.json";
-const outputJSONPath = "./config/differences.json";
+const inputJSONPath = "./data/fromDB-data.json";
+const outputJSONPath = "./data/differences.json";
 
 // controller
 

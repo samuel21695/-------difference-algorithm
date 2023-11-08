@@ -1,4 +1,3 @@
-const fs =require('fs');
 const path = require('path');
 
 // 파일이 .txt 파일인지 확인하는 함수
